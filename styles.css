@@ -226,6 +226,35 @@ header h1 {
     overflow: auto;
 }
 
+@media screen and (min-width: 1024px) {
+    header h1 {
+        font-size: 2rem;
+    }
 
+    header .top-icon img {
+        height: 5em;
+        object-fit: cover;
+        margin-left: 2em;
+        margin-top: 4em;
+        margin-right: 3em;
+    }
+
+    .top-nav {
+        display: flex;
+        flex-direction: row;
+        overflow: hidden;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .top-nav #extra-pages {
+        display: block;
+    }
+
+    .top-nav a.icon {
+        display: block;
+    }
+
+}
 
 
